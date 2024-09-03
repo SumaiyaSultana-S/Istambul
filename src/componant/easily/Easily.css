@@ -1,0 +1,94 @@
+#easily{
+    background-color: #222222;
+    height: 600px;
+    width: 100%;
+   padding-top: 80px;
+}
+.easi_li_main h1{
+
+    font-family: "DM Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #ffb400;
+    
+}
+.easi_li_main h2{
+
+    font-family: "Chivo", sans-serif;
+    font-size: 46px;
+    font-weight:700 ;
+    line-height: 58px;
+    color: #fff;
+    margin-top: 15px;
+
+}
+.easi_li_main p{
+
+    font-family: "DM Sans", sans-serif;
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 500;
+    width: 533px;
+    margin-top: 20px;
+    color: #fff;
+}
+.easi_li_main button {
+    padding: 17px 68px;
+    color: #ffb400;
+    background: transparent;
+    position: relative;
+    top: 60px;
+    left: 0;
+    border: 2px solid #ffb400;
+    border-radius: 6px;
+    transition: 0.5s;
+    border-radius: 30px;
+    box-shadow: 0 0 15px #ffb400;
+
+}
+.easi_li_main button:hover{
+    background-color: #ffb400;
+    box-shadow: 0 0 15px #fff;
+    color: #fff;
+}
+.pic i {
+    color: #fff;
+    font-size: 26px;
+    height: 50px;
+    width: 50px;
+    padding-left: 11px;
+    padding-top: 3px;
+    background-color: #222;
+    border-radius: 100px;
+    margin-top: 10px;
+    position: relative;
+    top: 3px;
+    left: 15px;
+}
+.pic h1 {
+    color: #fff;
+    font-size: 26px;
+    font-weight: 400;
+    position: relative;
+    top: 22px;
+    left: 35px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.pic h1:hover{
+    color: #ffb400;
+}
+.pic span {
+    display: flex;
+    height: 83px;
+    width: 400px;
+    background-color: #00000098;
+    margin-top: 15px;
+    border-radius: 8px;
+    box-shadow: 4px 3px 7px #ffb300b5;
+}
+.pic {
+    position: relative;
+    top: 27px;
+    left: 78px;
+}

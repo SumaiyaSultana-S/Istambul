@@ -1,0 +1,82 @@
+#product{
+    height: 1100px;
+    width: 100%;
+    background-color: #000000d6;
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-top: 600px;
+}
+.tulip img{
+     height: 267px;
+     width: 356px;
+     margin-left: 30px;
+     border-radius: 5px;
+     margin-top: 30px;
+
+
+}
+.tree img{
+    height: 267px;
+    width: 356px;
+    margin-left: 30px;
+    border-radius: 5px;
+    margin-top: 35px;
+    cursor: pointer;
+    overflow: hidden;
+}
+.tee{
+    display: flex;
+    margin-top: 100px;
+    flex-wrap: wrap;
+    margin-left: 50px;
+}
+.tee .tulip img{
+    height: 267px;
+    width: 356px;
+    object-fit: cover;
+    transition: .2s linear;
+
+}
+
+.tee .tulip:hover img{
+    transform: scale(1.1);
+}
+.popup_imag{
+    position: fixed;
+    top: 0;left: 0;
+    background-color: rgba(0,0,0,.9);
+    height: 100%;
+    width: 100%;
+    z-index:100 ;
+    display: none;
+
+}
+.popup_imag span{
+     
+    position: absolute;
+    top: 0;
+    right: 10px;
+    font-size: 40px;
+    font-weight: bolder;
+    color: #fff;
+    cursor: pointer;
+    z-index: 100;
+}
+.popup_imag img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 5px solid #fff;
+    border-radius: 5px;
+    width: 750px;
+    object-fit: cover;
+}
+.tulip h1 {
+    font-size: 20px;
+    color: #00000072;
+    position: relative;
+    top: -32px;
+    left: 156px;
+}

@@ -1,0 +1,209 @@
+#move{
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 500px;
+    background-color: #000000da;
+    width: 100%;
+    
+}
+.move{
+    height: 500px;
+    width: 100%;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.move img{
+     height: 500px;
+     width: 100%;
+
+}
+.logo img{
+    margin-top: 95px;
+}
+.logo p {
+    color: #fff;
+    width: 230px;
+    margin-top: 40px;
+
+}
+.quite h1{
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    margin-top: 100px;
+}
+
+.link {
+    height: 3px;
+    width: 51px;
+    position: absolute;
+    top: 130px;
+    left: 436px;
+    background-color: #ffb400;
+    border-radius: 30px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.link:hover{
+    width: 110px;
+    background-color: #ffb400;
+}
+.line {
+    height: 3px;
+    width: 51px;
+    position: absolute;
+    top: 130px;
+    left: 770px;
+    background-color: #ffb400;
+    border-radius: 30px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.line:hover{
+    width: 120px;
+    background-color: #ffb400;
+}
+.linki {
+    height: 3px;
+    width: 51px;
+    position: absolute;
+    top: 130px;
+    left: 1098PX;
+    background-color: #ffb400;
+    border-radius: 30px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.linki:hover{
+    width: 110px;
+    background-color: #ffb400;
+}
+.lin li {
+    color: #fff;
+    margin-top: 8px;
+    position: relative;
+    top: 34px;
+    left: -5px;
+    list-style: none;
+    font-weight: 400;
+    transition: 0.5s;
+    cursor: pointer;
+
+}
+.lin li:hover{
+    color: #ffb400;
+}
+.lin i {
+    color: #ffb400;
+    font-size: 18px;
+    margin-right: 13px;
+}
+.go,.ri,.es li {
+    list-style: none;
+    
+}
+.go,
+.ri,
+.es {
+   display: flex;
+   
+}
+.cate{
+    margin-top: 40px;
+}
+.go a {
+    padding: 4px 11px;
+    background-color: #363636ad;
+    color: #fff;
+    transition: 0.5s;
+    
+}
+.go h6:hover{
+    color: #ffb400;
+}
+.go a:hover{
+    color: #ffb400;
+}
+.go h6 {
+    padding: 4px 11px;
+    background-color: #363636ad;
+    color: #fff;
+    margin-right: 5px;
+    margin-top: 5px 5px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.ri a {
+    padding: 4px 11px;
+    background-color: #363636ad;
+    color: #fff;
+    transition: 0.5s;
+    margin: 5px 5px 5px 0px;
+}
+.ri h6 {
+    padding: 4px 11px;
+    background-color: #363636ad;
+    color: #fff;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.ri h6:hover{
+    color: #ffb400;
+}
+.ri a:hover{
+    color: #ffb400;
+}
+.es a {
+    padding: 4px 11px;
+    background-color: #363636ad;
+    color: #fff;
+    transition: 0.5s;
+}
+.es h6 {
+    padding: 4px 11px;
+    background-color: #363636ad;
+    color: #fff;
+    margin-right: 5px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.es p {
+    padding: 4px 11px;
+    background-color: #363636ad;
+    color: #fff;
+    margin-left: 5px;
+    transition: 0.5s;
+    cursor: pointer;
+    
+}
+.es p:hover{
+    color: #ffb400;
+}
+.es h6:hover{
+    color: #ffb400;
+}
+.es a:hover{
+    color: #ffb400;
+}
+.lina {
+    height: 1px;
+    width: 1100px;
+    position: relative;
+    top: 144px;
+    left: 80px;
+    background-color: #8080803d;
+}
+.data p {
+    color: #ffffff91;
+    position: relative;
+    top: 182px;
+    left: 500px;
+    display: inline-block;
+}

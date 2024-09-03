@@ -1,0 +1,140 @@
+#men{
+    position: relative;
+    height: 800px;
+    width: 100%;
+    background-color: #010101f0;
+    z-index: 1;
+}
+.women{
+
+    height: 400px;
+    width: 432px;
+    background-color: black;
+    z-index: -1;
+    position: absolute;
+    margin-top: 50px;
+   
+}
+.women img{
+    position: absolute;
+    z-index: 1;
+}
+.a_b_banner {
+    position: absolute;
+    top: 0;
+    left: 112px;
+    width: 656px;
+    height: 200px;
+    background-color: #00000092;
+    transition: 0.5s;
+    opacity: 0;
+    margin-top: 50px;
+}
+.a_b_banner:hover{
+    height: 691px;
+    opacity: 1;
+}
+.a_b_banner h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 74px;
+    color: #fff;
+    width: 464px;
+    position: relative;
+    top: 184px;
+    left: 78px;
+    
+}
+.a_b_banner h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    color: #fff;
+    font-size: 16px;
+    line-height: 28px;
+    width: 464px;
+    position: relative;
+    top: 202px;
+    left: 77px;
+  
+}
+.build_one {
+    position: relative;
+    top: 180px;
+    left: 100px;
+}
+.build_ona {
+    position: relative;
+    top: 92px;
+    left: 100px;
+}
+.build_ona h1{
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    color: #fff;
+    font-size: 32px;
+    line-height: 48px;
+  
+}
+.build_ona h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    color: #fff;
+    font-size: 16px;
+    line-height: 28px;
+    position: relative;
+    width: 381px;
+    margin-top: 15px;
+}
+.build_one form input {
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 16px;
+    width: 371px;
+    margin-top: 16px;
+    padding: 18px 15px;
+    border-radius: 8px;
+    text-decoration: none;
+    border: 1px solid rgba(244, 246, 252, 0.439);
+    background: transparent;
+}
+.build_one form ::placeholder{
+    height: 68px;
+    width: 432px;
+}
+.build_one form ::placeholder{
+    color: #F4F6FC;
+}
+
+.build_one button a{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 32px;
+    text-decoration: none;
+    border: none;
+    color: #FCD980;
+
+}
+.build_one button:hover a{
+    color: #1B1C2B;
+}
+.build_one button {
+    border: 1px solid #fcd9808a;
+    
+    border-radius: 41px;
+    background: transparent;
+    margin: 14px 0px;
+    width: 320px;
+    height: 64px;
+    transition: 0.5s;
+    position: relative;
+    top: 19px;
+    left: 36px;
+}
+.build_one button:hover {
+    background-color: #FCD980;
+    box-shadow: 0 0 25px #ffb300b1;
+}

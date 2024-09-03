@@ -1,0 +1,50 @@
+.baner img{
+    height: 600px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.baner{
+    height: 600px;
+    width: 100%;
+   position: absolute;
+   top: 0;
+   left: 0;
+   background-color: #000000c4;
+ 
+}
+.nner h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 60px;
+    color: #fff;
+    font-weight: 800;
+    background: transparent;
+    z-index: 1;
+    display: inline-block;
+    position: relative;
+    top: 204px;
+    left: 319px;
+}
+.nner span {
+    font-size: 20px;
+    z-index: 1;
+    position: relative;
+    top: 253px;
+    left: -125px;
+    color: #fff;
+    cursor: pointer;
+}
+.nner a {
+    font-size: 20px;
+    z-index: 1;
+    position: relative;
+    top: 253px;
+    left: -148px;
+    color: #ffb400;
+    transition: 0.5s;
+}
+.nner a:hover{
+    color: #fff;
+}

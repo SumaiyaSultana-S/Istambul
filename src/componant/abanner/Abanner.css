@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.ban img{
+    width: 100%;
+    height: 550px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index:-1;
+}
+.benn{
+    height: 550px;
+    width: 100%;
+    background-color: #000000c4;
+    position: absolute;
+    top: 0;
+    left: 0;  
+}
+.ben h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 60px;
+    color: #fff;
+    font-weight: 800;
+    background: transparent;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.ben a {
+    font-size: 24px;
+    z-index: 1;
+    position: absolute;
+    top: 68px;
+    left: 65px;
+    color: #fff;
+    transition: 0.5s;
+}
+.ben a:hover{
+    color: #ffb400;
+}
+.ben span {
+    font-size: 24px;
+    z-index: 1;
+    position: absolute;
+    top: 69px;
+    left: 140px;
+    color: #fff;
+    cursor: pointer;
+}
+.ben ul {
+    height: 100px;
+    width: 500px;
+    position: absolute;
+    top: 209px;
+    left: 589px;
+    display: flex;
+    flex-direction: row;
+}

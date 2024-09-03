@@ -1,0 +1,92 @@
+ /*common css start*/
+ *{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+}
+a{
+    display: inline-block !important;
+    text-decoration: none !important;
+}
+img{
+    vertical-align: middle;
+}
+ul{
+    list-style: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+}
+
+.slider {
+    height: 300px;
+    width: 300px;
+    position: relative;
+    top: -264px;
+    left: 102px;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+}
+.slider a {
+    font-size: 24px;
+    color: #fff;
+    margin-top: 20px;
+    position: relative;
+    top: 55px;
+    left: 0px;
+    height: 35px;
+    width: 131px;
+    transition: 0.5s;
+    padding-left: 40px;
+}
+.slider a:hover{
+    color: #ffb400;
+    border-left: 2px solid #ffb400 !important;
+}
+.ami i {
+    font-size: 24px;
+    color: #fff;
+    margin-top: 20px;
+    position: relative;
+    top: 50px;
+    left: 22px;
+}
+.ami i :hover{
+    color: #ffb400;
+}
+.ami {
+    height: 366px;
+    width: 70px;
+    background-color: #00000062;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 97px;
+    left: 35px;
+    border-radius: 40px;
+    z-index: 1;
+}
+.btan{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.btan button {
+    position: absolute;
+    z-index: 3;
+    border-radius: 50%;
+    white-space: nowrap;
+    pointer-events: auto;
+    font-size: 24px;
+    color: #fff;
+    top: 97px;
+    left: 35px;
+    padding: 14px 22px;
+    transition: 3s;
+    background-color: #0000002e;
+}
+
+/*common css end*/

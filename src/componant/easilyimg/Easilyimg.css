@@ -1,0 +1,29 @@
+#e_i{
+    height: 600px;
+    width: 100%;
+    background-color: #222222;
+}
+.easy_main{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top: 62px;
+    left: 0;
+}
+.easily_img {
+    height: 150px;
+    width: 309px;
+    border: 1px solid #3e3d3d5b;
+}
+.easily_img img {
+    position: relative;
+    top: 47px;
+    left: 50px;
+}
+
+.cli h1{
+    color: #FFF;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,65 @@
+.images img{
+    min-height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+
+}
+
+.text h2{
+    font-size: 28px;
+    color: #fff;
+    font-weight: 400;
+}
+.bold-text{
+    font-size: 50px;
+
+}
+.heading-large{
+    margin-top: 20px;
+}
+.text h4{
+    font-size: 16px;
+    font-weight: 500;
+    width: 500px;
+    line-height:30px;
+    margin-top: 30px;
+    color: #fff;
+    z-index: 999999;
+}
+.text h1{
+    color: #fff;
+}
+.text {
+ 
+    position: absolute;
+    bottom: 160px;
+    right: 260px;
+}
+.tumi a {
+    height: 51px;
+    width: 228px;
+    background: transparent;
+    color: #000;
+    border-radius: 30px;
+    color: #ffb400;
+    text-align: center;
+    font-weight: 600;
+    padding-top: 11px;
+    margin-left: 10px;
+    z-index: 1;
+    margin-top: 15px;
+    border: 2px solid #ffb400;
+    transition: 0.5s;
+}
+.tumi a:hover{
+    background-color: #ffb400;
+    color: #fff;
+
+}
+
+.tumi{
+    margin-top: 15px;
+}
